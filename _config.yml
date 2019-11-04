@@ -1,0 +1,65 @@
+# Site settings
+title: Start page for Nils Kuhler's github
+description: "Start page for Nils Kuhler's github"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: 
+
+# Hero
+hero: 
+    hero_img: hero.jpg
+    hero_title: Nils Kuhler's Github homepage
+    hero_description: Start page my Github resources
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: 
+    emergency: 
+    email: 
+    address: 
+
+# Opening hours
+monday_friday: 
+saturday: 
+sunday: 
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 
+    address: 
+    address_details: svg/min/logo.svg
+
+# Social settings
+facebook: 
+twitter: 
+instagram: 
+youtube: http://youtube.com
+skype: 
+feed: no
+
+# Footer
+copyright: Nils Kuhler
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: 
+google_verification:
