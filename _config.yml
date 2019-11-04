@@ -1,8 +1,12 @@
 # Site settings
 title: Start page for Nils Kuhler's github
 description: "Start page for Nils Kuhler's github"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+##setting for running a remote (github.io) git pages site
+baseurl: "/mygithub" # the subpath of your site, e.g. /blog
+url: "https://nilskuhler.github.io/" # the name of your domain
+##Setting for running local site
+##baseurl: "" # the subpath of your site, e.g. /blog
+##url: "" # the name of your domain
 logo_url: 
 
 # Hero
