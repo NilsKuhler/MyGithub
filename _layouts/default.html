@@ -15,8 +15,13 @@
         {% include analytics.html %}
     {% endif %}
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	{% if site.baseurl %}
     <script src="{{ site.baseurl }}/js/all.min.js"></script>
+	{% else %}
+	<% capture fulljspath %>{{ site.url }}mygithub/js/all.min.js <% endcapture %>
+	<script src="{{ fulljspath }}"></script>
+	{% endif %}
 </body>
 </html>
